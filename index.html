@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>老婆我错了</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #ff99cc; 
+            font-family: "微软雅黑", sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #e63946;
+            margin-bottom: 20px;
+        }
+        .photo {
+            width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .text {
+            line-height: 1.8;
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .apologize-btn {
+            display: block;
+            width: 80%;
+            margin: 30px auto 0;
+            padding: 15px;
+            background-color: #e63946;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .apologize-btn:hover {
+            background-color: #c1121f; 
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            animation: fadeIn 1.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>亲爱的mi好，我错了！</h1>
+        <img src="img/photo1.jpg" class="photo" alt="照片">
+	<img src="img/photo2.jpg" class="photo" alt="照片">
+	<img src="img/photo3.jpg" class="photo" alt="照片">
+        <div class="text">
+            宝贝：<br><br>
+            今天我认真反思了自己的问题，不该让你生气，更不该让你难过那么久。<br><br>
+            我知道你不是在意事情本身，而是在意我对你的态度。<br><br>
+            原谅我这一次好不好？
+        </div>
+        <button class="apologize-btn" onclick="alert('宝贝，我真的知道错了，永远爱你！')">原谅我吧~</button>
+    </div>
+</body>
+</html>
